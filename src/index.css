@@ -16,7 +16,7 @@ html {
 
 body {
      font-family: "Poppins", sans-serif;
-     background-color: #e7e7e7;
+     background-color: #ece2dc;
      color: #38220f;
 }
 
@@ -24,4 +24,7 @@ body {
      background-color: #634832;
      padding: 1rem;
      color: #fff;
+}
+.btn {
+     background-color: #634832;
 }
