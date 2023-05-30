@@ -2,6 +2,7 @@ import React, { useEffect , useState } from 'react';
 import { FaLinkedin, FaGithub, FaAngellist } from 'react-icons/fa';
 import { styles } from '../styles';
 import '../index.css'
+import House from '../canvas/desktop';
 
 const Home = () => {
   const [active, setActive] = useState("");
@@ -25,12 +26,13 @@ const Home = () => {
        <a href='' download>
        <button
             type='submit'
-            className=' mt-5 btn py-3 px-8 rounded-xl outline-none w-fit text-stone-950 font-bold drop-shadow-lg'
+            className=' mt-5 btn py-3 px-8 rounded-xl outline-none w-fit text-white font-bold drop-shadow-lg'
           >Get My Resume</button>
        </a>
         </div>
         <div className='lg:h-[600px] md:h-[400px] h-[400px]  w-full flex items-center justify-center '>
-            <h3>thee d model</h3>
+            
+            <House />
         </div>
     </div>
      );
