@@ -2,7 +2,7 @@ import React, { useEffect , useState } from 'react';
 import { FaLinkedin, FaGithub, FaAngellist } from 'react-icons/fa';
 import { styles } from '../styles';
 import '../index.css'
-import House from '../canvas/desktop';
+import House from '../canvas/girl';
 
 const Home = () => {
   const [active, setActive] = useState("");

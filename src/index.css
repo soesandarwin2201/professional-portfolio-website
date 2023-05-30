@@ -16,15 +16,15 @@ html {
 
 body {
      font-family: "Poppins", sans-serif;
-     background-color:#DADED4;
-     color: #3C403D;
+     background-color:#fff;
+     color: #092147;
 }
 
 .navbar{
-     background-color:  #A3BCb6;
+     background-color:  #97B2DE;
      padding: 1rem;
      color: #333333;
 }
 .btn {
-     background-color:  #39603d;
+     background-color:  #1A488E;
 }
