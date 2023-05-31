@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.3",
     "@react-three/drei": "^9.70.0",
     "@react-three/fiber": "^8.13.0",
     "framer-motion": "^10.12.16",
@@ -20,6 +22,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-router-dom": "^6.11.2",
+    "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
