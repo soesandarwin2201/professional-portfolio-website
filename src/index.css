@@ -45,14 +45,6 @@ body {
      border-radius: 5px 20px 3px 10px;
 }
 
-.project-card {
-     background-color: #97B2DE;
-     color: #092147;
-     padding: 1rem;
-     border-radius: 5px 20px 3px 10px;
-}
-
-
 .card-container > div:nth-child(2){
      flex-direction: row-reverse;
 }

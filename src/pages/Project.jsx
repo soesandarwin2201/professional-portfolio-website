@@ -50,19 +50,3 @@ const Projects = () => {
 }
  
 export default SectionWrapper(Projects, "");
-
-
-{/* <div className="w-full flex">
-      <div className="grid container mx-auto justify-center">
-        {projects.map((project, index) => (
-          <div className="grid-item w-full md:w-1/2" key={index}>
-            <ProjectCard
-              image={project.image}
-              live={project.live}
-              source={project.source}
-              title={project.title}
-            />
-          </div>
-        ))}
-      </div>
-    </div> */}
