@@ -19,6 +19,7 @@ const House = () => {
                     enableDamping={false}
                     enablePan={true}
                     autoRotate
+                    enableZoom={false}
                 />
                 
             </Canvas>
