@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./pages/About";
 import Projects from "./pages/Project";
 import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return ( 
@@ -13,6 +14,7 @@ const App = () => {
     <About />
     <Projects />
     <Experience />
+    <Contact />
     </BrowserRouter>
    );
 }

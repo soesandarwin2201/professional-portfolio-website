@@ -183,3 +183,5 @@ export const experiences = [
     ],
   },
 ];
+
+export const techs = ["HTML5", "CSS3" , "React", "Rails", "Ruby", "JavaScript", "SQL" ,"PostgreSQL", "jQuery", "Next.js", "UI", "UX", "Graphic", "Content", "Remote", "GitHub", "Git"]
