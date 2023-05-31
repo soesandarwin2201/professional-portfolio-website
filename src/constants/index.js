@@ -1,3 +1,8 @@
+import web from '../assets/web.png';
+import backend from '../assets/backend.png'
+import mobile from '../assets/mobile.png'
+import creator from '../assets/creator.png'
+
 export const navLinks = [
      {
        id: "about",
@@ -13,3 +18,22 @@ export const navLinks = [
      },
    ];
 
+
+export const services = [
+    {
+      title: "FrontEnd Developer",
+      icon: web,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
+    },
+    {
+     title: "UI/UX Designer",
+     icon: mobile,
+   },
+    {
+      title: "Content Creator",
+      icon: creator,
+    },
+  ];
