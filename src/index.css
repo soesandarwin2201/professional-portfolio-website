@@ -133,4 +133,7 @@ body {
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
-   
+
+.contact {
+  background-color: #97B2DE;
+}
