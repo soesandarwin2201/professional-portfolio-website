@@ -131,3 +131,55 @@ export const services = [
       ],
     },
 ]
+export const experiences = [
+  {
+    title: "Content Creator",
+    company_name: "Guide with Mahuyar",
+    icon: mobile,
+    iconBg: "#383E56",
+    date: "March 2020 - August 2020",
+    points: [
+      "Work on a scholarship Program with a big team of youths who belong to different culture and backgrounds",
+      " worked as the facilitator for the Myanmar youth people in the 2019 Youth developing camp"
+    ],
+  },
+  {
+    title: "Student Mentor",
+    company_name: "Microverse",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "December 2022 - Present",
+    points: [
+      " Assisted two junior developers weekly to ensure their mastery of web development, agile methodologies, and professional work behavior",
+      "Assisted junior developers with debugging, educating them in coding best practices and providing them with technical support",
+      "Built group project with junior developers to help them improve their skills",
+      "Giving time to listen to their stories and experiences to give emotional support",
+    ],
+  },
+  {
+    title: "business consultant",
+    company_name: "AlNA Beauty Products",
+    icon:creator,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Present",
+    points: [
+      "Successfully created the business plan and designed an innovative product package for enhanced sales",
+      "Achieved successful connections with global investors and managers, facilitating valuable partnerships and collaborations",
+      "Successfully trained staff members in the areas of public speaking, sales, and business planning, leading to enhanced skills and increased performance",
+      "Successfully created engaging content and visually appealing graphic design for the product, leading to its enhanced appeal and market success.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Microverse",
+    icon:web,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - Present",
+    points: [
+      "recently graduated from Microverse, an online software development program that accepts less than 1% of applicants",
+      "Spent 1300+ hours mastering algorithms, data structures, and full-stack web development. Developed skills in remote pair programming using industry-standard git-flow and daily standups to collaborate with international remote developers",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+];

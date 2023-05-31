@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./pages/About";
 import Projects from "./pages/Project";
+import Experience from "./pages/Experience";
 
 const App = () => {
   return ( 
@@ -11,6 +12,7 @@ const App = () => {
     <Home />
     <About />
     <Projects />
+    <Experience />
     </BrowserRouter>
    );
 }
