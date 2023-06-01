@@ -8,28 +8,28 @@ import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
  
 export const navLinks = [
-     {
-       id: "about",
-       title: "About",
-     },
-     {
-       id: "projects",
-       title: "Projects",
-     },
-     {
-       id: "contact",
-       title: "Contact",
-     },
-   ];
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
 
 
 export const services = [
     {
-      title: "FrontEnd Developer",
+      title: "Front-end Developer",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Back-end Developer",
       icon: backend,
     },
     {
@@ -69,7 +69,7 @@ export const services = [
       image: project2,
       title: "Bugs Gallery for children education",
       description:
-        "A comprehensive Bugs Gallery for children education that allows users to teach kids to learn about the bug species and its ability, natures, search for  popular species.",
+        "A comprehensive Bugs Gallery for children's education that allows users to teach kids about bug species, their abilities, nature, and search for popular species.",
       tags: [
         {
           name: "react",
@@ -92,7 +92,7 @@ export const services = [
       source: "https://github.com/soesandarwin2201/Portfolio_website",
       name: "Portfolio Landing Page",
       description:
-        "A comprehensive landing page for  developers to show off the skills. that allows users to see the projects, about the author, and see the experience, and can contact the author to hire.",
+        "A comprehensive landing page for developers to showcase their skills that allows users to view projects, learn about the author, explore their experience, and contact the author for hiring.",
       tags: [
         {
           name: "javascript",
@@ -114,7 +114,7 @@ export const services = [
       live: "https://soesandarwin2201.github.io/LeaderBoard-project/",
       source: "https://github.com/soesandarwin2201/LeaderBoard-project",
       description:
-        "Leader Board is the app for game user to keep track of their team score and their own score.User can add the name and score ",
+        "Leaderboard is an app for game users to keep track of their team score and their own score. Users can add their name and score.",
       tags: [
         {
           name: "javascript",
@@ -140,7 +140,7 @@ export const experiences = [
     date: "March 2020 - August 2020",
     points: [
       "Work on a scholarship Program with a big team of youths who belong to different culture and backgrounds",
-      " worked as the facilitator for the Myanmar youth people in the 2019 Youth developing camp"
+      "Worked as the facilitator for the Myanmar youth people in the 2019 Youth developing camp"
     ],
   },
   {
@@ -150,7 +150,7 @@ export const experiences = [
     iconBg: "#383E56",
     date: "December 2022 - Present",
     points: [
-      " Assisted two junior developers weekly to ensure their mastery of web development, agile methodologies, and professional work behavior",
+      "Assisted two junior developers weekly to ensure their mastery of web development, agile methodologies, and professional work behavior",
       "Assisted junior developers with debugging, educating them in coding best practices and providing them with technical support",
       "Built group project with junior developers to help them improve their skills",
       "Giving time to listen to their stories and experiences to give emotional support",

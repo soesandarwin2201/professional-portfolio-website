@@ -22,7 +22,7 @@ const About = () => {
            I am a skilled software developer with experience in  JavaScript, and Ruby, and expertise in frameworks like React, Next.js, Ruby on Rails, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
          </motion.p>
    
-         <div className='mt-20 flex flex-wrap gap-10'>
+         <div className='mt-20 flex flex-wrap gap-10 justify-items-center items-center'>
            {services.map((service, index) => (
              <ServiceCard key={service.title} index={index} {...service} />
            ))}

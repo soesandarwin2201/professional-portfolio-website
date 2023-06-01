@@ -6,6 +6,7 @@ import '../index.css'
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg'
 
+
 const Navbar = () => {
      const [active, setActive] = useState("");
      const [toggle,setToggle] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
                     </Link>
                     <ul className="list-none hidden sm:flex flex-row gap-10">
         { navLinks.map((link) => (
-          <li key={link.id} className={ `${ active === link.title ? "text-slate-800" : "text-stone-950"} hover:text-black text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
+          <li key={link.id} className={ `${ active === link.title ? "active" : "text-stone-950"} hover:text-slate-800 text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
             <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}
@@ -45,7 +46,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-stone-950"
+                    active === nav.title ? "active" : "text-stone-950"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
