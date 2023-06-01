@@ -67,7 +67,7 @@ export const services = [
     },
     {
       image: project2,
-      live: "https://soesandarwin2201.github.io/portfolio-website-soesandarwin2201.github.io/",
+      live: "https://react-capstone-project.vercel.app/",
       source: "https://github.com/soesandarwin2201/react_capstone_project",
       title: "Bugs Gallery for children education",
       description:
