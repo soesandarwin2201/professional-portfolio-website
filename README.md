@@ -2,9 +2,7 @@
 
 <div align="center">
 
-  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
+  
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -12,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Portfolio website with three.js\] ](#-portfolio-website-with-threejs-)
+- [📖 \[Professional Portfolio\] ](#-professional-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -31,12 +29,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio website with three.js] <a name="about-project"></a>
+# 📖 [Professional Portfolio] <a name="about-project"></a>
 
-"Portfolio website with three.js " is a show off my skills and project as the personal portfolio. I learn the three.js with this three.js project.
+"Professional Portfolio website with three.js " is a show off my skills and project as the personal portfolio. 
 
-Make simple calculations.
-Read a random math-related quote. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,9 +63,9 @@ Read a random math-related quote.
 ### Key Features <a name="key-features"></a>
 
 
-- use can interact with 3d model
+- User can interact with 3d model
 - add the motion and animation
-- create animate star background
+- User can rotate and see the detail tech stack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,6 +93,10 @@ In order to run this project you need:
 * HTML and CSS
 * JAVASCRIPT (ES6/...)
 * React.js
+* React Three Fiber
+* Three.js
+* React Three Drei
+* Tilt
 * npm
 * Node.js
 * Any code editer (vs code)
@@ -106,7 +106,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```cd https://github.com/soesandarwin2201/protfolio_with_three.js```
+```cd https://github.com/soesandarwin2201/professional-portfolio-website```
 
 ### Install
 
