@@ -24,9 +24,14 @@ body {
      background-color:  #fff;
      padding: 1rem;
      color: #333333;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 .btn {
      background-color:  #1A488E;
+}
+
+.btn:hover {
+  font-size: 1.2rem;
 }
 
 .card {
@@ -53,6 +58,15 @@ body {
      flex-direction: row-reverse;
 }
 
+@media only screen and (max-width: 600px) {
+  .card-container > div:nth-child(2){
+    flex-direction: column;
+}
+
+.card-container > div:nth-child(4){
+    flex-direction: column;
+}
+}
 .orange-text-gradient {
      background: #f12711; /* fallback for old browsers */
      background:

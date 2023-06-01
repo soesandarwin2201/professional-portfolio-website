@@ -8,19 +8,19 @@ import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
  
 export const navLinks = [
-     {
-       id: "about",
-       title: "About",
-     },
-     {
-       id: "projects",
-       title: "Projects",
-     },
-     {
-       id: "contact",
-       title: "Contact",
-     },
-   ];
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
 
 
 export const services = [

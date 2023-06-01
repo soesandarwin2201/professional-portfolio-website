@@ -33,16 +33,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_q85uc1i',
+        'template_rlw4pci',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Soe Sandar Win",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "soesandarwin2201@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'cfzSTJF2WOkKfTmjh'
       )
       .then(
         () => {
@@ -116,7 +116,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='btn py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

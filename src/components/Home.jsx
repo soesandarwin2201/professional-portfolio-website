@@ -4,6 +4,7 @@ import { styles } from '../styles';
 import { motion } from 'framer-motion';
 import '../index.css'
 import House from '../canvas/girl';
+import resume from '../assets/resume.pdf'
 
 const Home = () => {
   const [active, setActive] = useState("");
@@ -25,7 +26,7 @@ const Home = () => {
             <a href='https://wellfound.com/u/soe-sandar-win' className='text-xl mt-1'><FaAngellist /></a>
           </li>
        </ul>
-       <a href='' download>
+       <a href={resume} download>
        <button
             type='submit'
             className=' mt-5 btn py-3 px-8 rounded-xl outline-none w-fit text-white font-bold drop-shadow-lg'
