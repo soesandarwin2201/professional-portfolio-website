@@ -176,7 +176,7 @@ export const experiences = [
     company_name: "Microverse",
     icon:web,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
+    date: "Sep 2022 - Present",
     points: [
       "recently graduated from Microverse, an online software development program that accepts less than 1% of applicants",
       "Spent 1300+ hours mastering algorithms, data structures, and full-stack web development. Developed skills in remote pair programming using industry-standard git-flow and daily standups to collaborate with international remote developers",
