@@ -67,6 +67,8 @@ export const services = [
     },
     {
       image: project2,
+      live: "https://soesandarwin2201.github.io/portfolio-website-soesandarwin2201.github.io/",
+      source: "https://github.com/soesandarwin2201/react_capstone_project",
       title: "Bugs Gallery for children education",
       description:
         "A comprehensive Bugs Gallery for children's education that allows users to teach kids about bug species, their abilities, nature, and search for popular species.",
