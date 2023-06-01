@@ -26,12 +26,14 @@ const Home = () => {
             <a href='https://wellfound.com/u/soe-sandar-win' className='text-xl mt-1'><FaAngellist /></a>
           </li>
        </ul>
+        <div className="flex sm:flex flex-row gap-5">
        <a href={resume} download>
        <button
             type='submit'
             className=' mt-5 btn py-3 px-8 rounded-xl outline-none w-fit text-white font-bold drop-shadow-lg'
-          >Get My Resume</button>
+          >Get Resume</button>
        </a>
+        </div>
         </div>
         <div className='lg:h-[600px] md:h-[400px] h-[400px]  w-full flex items-center justify-center '>
             
