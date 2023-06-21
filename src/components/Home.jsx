@@ -4,7 +4,7 @@ import { styles } from '../styles';
 import { motion } from 'framer-motion';
 import '../index.css'
 import House from '../canvas/girl';
-import resume from '../assets/resume.pdf'
+import resume from '../assets/cv.pdf.pdf'
 
 const Home = () => {
   const [active, setActive] = useState("");
