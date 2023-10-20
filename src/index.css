@@ -1,48 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400;1,700&family=Roboto:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400;1,700&family=Roboto:ital,wght@1,300&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-     scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-     font-family: "Poppins", sans-serif;
-     background-color:#fff;
-     color: #092147;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #092147;
 }
 
-.navbar{
-     background-color:  #fff;
-     padding: 1rem;
-     color: #333333;
-     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+.navbar {
+  background-color: #fff;
+  padding: 1rem;
+  color: #333333;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
-.heading{
-   color: #1A488E;
+.heading {
+  color: #1a488e;
 }
 
 .text {
-  color: #1A488E;
+  color: #1a488e;
   font-weight: 900;
 }
 
 .active {
-  border-bottom: 5px solid #1A488E;
-  padding: .2rem .6rem;
+  border-bottom: 5px solid #1a488e;
+  padding: 0.2rem 0.6rem;
 }
 
 .btn {
-     background-color:  #1A488E;
+  background-color: #1a488e;
 }
 
 .btn:hover {
@@ -50,119 +50,104 @@ body {
 }
 
 .card {
-     background-color:  #97B2DE;
-     color: #092147;
-     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #97b2de;
+  color: #092147;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .tag {
-     background-color: #1A488E;
-     color: #fff;
-     padding: .3rem .7rem;
-     border: 1px solid #fff;
-     text-transform: uppercase;
-     margin: .3rem;
-     border-radius: 5px 20px 3px 10px;
+  background-color: #1a488e;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  margin: 0.3rem;
+  border-radius: 5px 20px 3px 10px;
 }
 
-.card-container > div:nth-child(2){
-     flex-direction: row-reverse;
+.card-container > div:nth-child(2) {
+  flex-direction: row-reverse;
 }
 
-.card-container > div:nth-child(4){
-     flex-direction: row-reverse;
+.card-container > div:nth-child(4) {
+  flex-direction: row-reverse;
 }
 
 @media only screen and (max-width: 600px) {
-  .card-container > div:nth-child(2){
+  .card-container > div:nth-child(2) {
     flex-direction: column;
-}
+  }
 
-.card-container > div:nth-child(4){
+  .card-container > div:nth-child(4) {
     flex-direction: column;
-}
+  }
 }
 .orange-text-gradient {
-     background: #f12711; /* fallback for old browsers */
-     background:
-       -webkit-linear-gradient(
-         to top,
-         #f12711,
-         #f5af19
-       ); 
-   
-     background:
-       linear-gradient(
-         to top,
-         #f12711,
-         #f5af19
-       ); 
-   
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-   }
-   
-.green-text-gradient {
-     background: #11998e; 
-     background:
-       -webkit-linear-gradient(
-         to top,
-         #11998e,
-         #38ef7d
-       ); /* Chrome 10-25, Safari 5.1-6 */
-   
-     background:
-       linear-gradient(
-         to top,
-         #11998e,
-         #38ef7d
-       ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-   }
-   
-.blue-text-gradient {
-     /* background: -webkit-linear-gradient(#eee, #333); */
-     background: #56ccf2; /* fallback for old browsers */
-     background:
-       -webkit-linear-gradient(
-         to top,
-         #2f80ed,
-         #56ccf2
-       ); /* Chrome 10-25, Safari 5.1-6 */
-   
-     background:
-       linear-gradient(
-         to top,
-         #2f80ed,
-         #56ccf2
-       ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f12711, #f5af19);
+
+  background: linear-gradient(to top, #f12711, #f5af19);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-   
+
+.green-text-gradient {
+  background: #11998e;
+  background: -webkit-linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .pink-text-gradient {
-     background: #ec008c; /* fallback for old browsers */
-     background:
-       -webkit-linear-gradient(
-         to top,
-         #ec008c,
-         #fc6767
-       ); /* Chrome 10-25, Safari 5.1-6 */
-   
-     background:
-       linear-gradient(
-         to top,
-         #ec008c,
-         #fc6767
-       ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contact {
-  background-color: #97B2DE;
+  background-color: #97b2de;
 }
